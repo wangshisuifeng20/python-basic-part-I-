@@ -1,0 +1,10 @@
+10.编写一个接受整数（n）并计算n + nn + nnn值的Python程序。
+n的示例值为 5 预期结果： 615
+
+n = int(input("Enter a number:"));
+print(n+n*10+n+n*100+n*10+n)
+
+n = int(input("Enter a number:"));
+n1 = int("%s%s"%(n,n));
+n2 = int("%s%s%s"%(n,n,n))
+print(n+n1+n2);
