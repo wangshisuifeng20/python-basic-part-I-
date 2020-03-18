@@ -1,0 +1,7 @@
+8.编写一个Python程序以显示以下列表中的第一个和最后一个颜色。
+color_list = [“” Red“，” Green“，” White“，” Black“]
+
+color_list = ["Red","Green","White","Black"];
+a = color_list[0];
+b = color_list[-1];
+print("The first color is: {} \nThe last color is: {}".format(a,b));

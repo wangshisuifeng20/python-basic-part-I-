@@ -1,0 +1,18 @@
+3.编写一个Python程序以显示当前日期和时间。
+样本输出：
+当前日期和时间：
+2014-07-05 14:34:14 
+
+Python日期时间：
+
+datetime模块提供了用于以简单和复杂方式操纵日期和时间的类。
+datetime.now（tz = None）返回当前本地日期和时间。
+如果可选参数tz为None或未指定，则类似于today（）
+
+date.strftime（format）返回表示日期的字符串，由显式格式字符串控制。
+表示小时，分钟或秒的格式代码将显示0个值
+
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))

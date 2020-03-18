@@ -1,0 +1,4 @@
+5.编写一个接受用户名字和姓氏的Python程序，并以相反的顺序打印它们，并在它们之间留一个空格。
+
+first_name,last_name = input("请输入你的名字：").split();
+print("输出相反顺序的姓名:{} {}".format(last_name,first_name))

@@ -1,0 +1,17 @@
+7.编写一个Python程序以接受用户的文件名并打印该文件的扩展名。
+样本文件名： abc.java 
+输出： java
+
+Python str.rsplit（sep = None，maxsplit = -1）函数：
+
+该函数使用分隔符作为分隔符字符串返回给定字符串的单词列表。
+
+如果指定了maxsplit，则列表中最多包含maxsplit + 1个元素。
+如果未指定maxsplit或-1，则分割数没有限制。
+如果给定sep，则不将连续的定界符分组在一起，并视为对空字符串定界。
+该月的说法可能由多个字符。
+使用指定的分隔符分割空字符串将返回['']。
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))

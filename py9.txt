@@ -1,0 +1,12 @@
+9.编写一个Python程序以显示检查时间表。（从exam_st_date中提取日期）。
+exam_st_date =（11，12，2014）
+输出示例：考试将始于：2014/11/12 
+
+exam_st_date =(11,12,2014);
+print("考试将始于：%i/%i/%i"%(exam_st_date[2],exam_st_date[0],exam_st_date[1]));
+
+exam_st_date =(11,12,2014);
+a = exam_st_date[0];
+b = exam_st_date[1];
+c = exam_st_date[2];
+print("考试将始于{}.{}.{}.".format(c,a,b));

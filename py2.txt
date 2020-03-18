@@ -1,0 +1,7 @@
+2.编写一个Python程序以获取您正在使用的Python版本
+
+import sys
+print("python version.");
+print(sys.version);
+print("version_info");
+print(sys.version_info);
