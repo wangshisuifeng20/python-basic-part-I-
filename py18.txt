@@ -1,0 +1,10 @@
+20.编写一个Python程序来获取一个字符串，该字符串是给定字符串的n个（非负整数）副本
+
+def larger_string(str, n):
+   result = ""
+   for i in range(n):
+      result = result + str
+   return result
+
+print(larger_string('abc', 2))
+print(larger_string('.py', 3))

@@ -1,0 +1,6 @@
+16.编写一个Python程序，以获取给定数字和17之间的差值，如果数字大于17，则返回绝对差值的两倍。
+n = int(input("Enter a number:"));
+if n>17:
+    print(2*abs(n-17));
+else:
+    print(n-17)

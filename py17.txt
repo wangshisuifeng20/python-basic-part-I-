@@ -1,0 +1,8 @@
+19.编写一个Python程序，以从给定字符串中添加了“ Is”的新字符串中获取新字符串。
+如果给定的字符串已经以“ Is”开头，则返回不变的字符串。
+
+def  new_string(str):
+	if len(str) >= 2 and str[:2]="Is":
+		return str;
+	else:
+		return  "Is"+str;

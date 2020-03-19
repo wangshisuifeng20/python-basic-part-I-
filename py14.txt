@@ -1,0 +1,8 @@
+14.编写一个Python程序来计算两个日期之间的天数。
+样本日期：（2014，7，2），（2014，7，11）
+预期产量：9天
+
+from datetime import date;
+first_date = date(2014,7,2);
+late_date = date(2014,7,11);
+print((late_date - first_date).days);

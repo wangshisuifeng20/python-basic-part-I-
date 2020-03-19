@@ -1,0 +1,10 @@
+11.编写一个Python程序以打印Python内置函数的文档（语法，说明等）。
+示例函数：abs（）
+预期结果：
+abs（number）-> number 
+返回参数的绝对值。
+
+n = int(input("Enter a number:"));
+print("n的绝对值:",abs(n));
+
+print(abs.__doc__)

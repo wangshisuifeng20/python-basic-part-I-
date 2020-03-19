@@ -1,0 +1,13 @@
+13.编写一个Python程序以打印以下文档。
+示例字符串：
+您不必“逃避”的字符串
+这
+是一个..多行
+heredoc字符串-------->示例
+
+print("""
+a string that you "don't" have to escape
+This
+is a  ....... multi-line
+heredoc string --------> example
+""")

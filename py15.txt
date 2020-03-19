@@ -1,0 +1,6 @@
+15.编写一个Python程序以获取半径为6的球体的体积。
+
+import math
+r = 6
+V = math.pi * r * r * r * 4;
+print(V)

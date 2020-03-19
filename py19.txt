@@ -1,0 +1,10 @@
+21.编写一个Python程序来查找给定的数字（来自用户的接受数）是偶数还是奇数，
+然后向用户输出一条适当的消息。
+
+
+def Isnumber(n):
+    if(n%2):
+        print("{} is a even number".format(n));
+    else:
+        print("{} is a odd number".format(n));
+a = Isnumber(10005643);

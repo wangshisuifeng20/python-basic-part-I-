@@ -1,0 +1,7 @@
+12.编写一个Python程序以打印给定月份和年份的日历。
+注意：使用“日历”模块。
+
+import calendar
+Y = int(input("Enter the Year:"));
+M = int(input("Enter the Month:"));
+print(calendar.month(Y,M));
