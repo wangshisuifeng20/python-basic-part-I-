@@ -1,0 +1,8 @@
+38.编写一个Python程序来求解（x + y）*（x + y）。
+测试数据：x = 4，y = 3 
+预期输出：（4 + 3）^ 2）= 49
+
+def multiplus(x,y):
+    a = (x+y)*(x+y);
+    return a;
+print(multiplus(4,3))

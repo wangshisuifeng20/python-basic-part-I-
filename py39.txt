@@ -1,0 +1,5 @@
+41.编写一个Python程序来检查文件是否存在。
+
+import os.path
+open('abc.txt', 'w')
+print(os.path.isfile('abc.txt'))

@@ -1,0 +1,9 @@
+33.编写一个Python程序，将三个给定的整数相加。但是，如果两个值相等，则总和将为零
+
+n1 = int(input("number1:"));
+n2 = int(input("number2:"));
+n3 = int(input("number3:"));
+if n1 == n2 or n2 == n3 or n1 == n3:
+    print(0);
+else:
+    print(n1+n2+n3);

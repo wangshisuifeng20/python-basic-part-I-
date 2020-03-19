@@ -1,0 +1,6 @@
+42.编写一个Python程序来确定Python Shell在OS上是以32位还是64位模式执行的。
+
+
+# For 32 bit it will return 32 and for 64 bit it will return 64
+import struct
+print(struct.calcsize("P") * 8)

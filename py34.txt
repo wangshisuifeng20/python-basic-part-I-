@@ -1,0 +1,8 @@
+36.如果两个对象都是整数类型，请编写一个Python程序添加两个对象。
+
+
+def add_numbers(a,b):
+    if not(isinstance(a,int) and isinstance(b,int)):
+        raise TypeError("numbers must be two integars");
+    return a+b;
+print(add_numbers(1,2))

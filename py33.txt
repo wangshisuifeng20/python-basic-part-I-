@@ -1,0 +1,12 @@
+35.编写一个Python程序，如果两个给定的整数值相等或它们的和或差为5，则返回true。
+
+def haha(x,y):
+    if x == y or abs(x - y)== 5 or x + y == 5:
+        return True;
+    else:
+        return False;
+print(haha(2,3))
+print(haha(2,2))
+print(haha(6,1))
+print(haha(12,17))
+print(haha(5,4))

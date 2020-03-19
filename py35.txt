@@ -1,0 +1,6 @@
+37.编写一个Python程序以三行显示您的详细信息，例如姓名，年龄，地址。
+
+address = input("Please enter your address:");
+number = input("Please enter your number:");
+name = input("Please enter your name:");
+print("家庭住址:{} \n电话号码:{} \n名字:{}\n".format(address,number,name));

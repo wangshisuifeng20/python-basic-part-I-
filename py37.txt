@@ -1,0 +1,10 @@
+39.编写一个Python程序来计算指定的本金，利率和年数的终值。
+测试数据：amt = 10000，整数= 3.5，年= 7 
+预期输出：12722.79
+
+amt = int(input("请输入你的本金："))
+interest = float(input("对应的利率:"))
+years = int(input("存取的年份:"));
+for i in range(years):
+    amt += amt*interest/100;
+    print('第{}年的本息和为:{}'.format(i+1,amt));

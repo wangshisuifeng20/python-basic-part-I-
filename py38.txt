@@ -1,0 +1,17 @@
+40.编写一个Python程序来计算点（x1，y1）和（x2，y2）之间的距离。
+
+
+import math
+x1 = float(input("请输入第一个点的横坐标:"));
+y1 = float(input("请输入第一个点的纵坐标:"));
+x2 = float(input("请输入第二个点的横左边:"));
+y2 = float(input("请输入第二个点的纵左边:"));
+distance = math.sqrt((x1-x2)**2+(y1-y2)**2);
+print("两点之间的距离为:{}".format(distance));
+
+import math
+p1 = [4, 0]
+p2 = [6, 6]
+distance = math.sqrt( ((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2) )
+
+print(distance)
