@@ -1,0 +1,13 @@
+32.编写一个Python程序以获得两个正整数的最小公倍数（LCM）。
+
+def gcd(a,b):
+    if a < b:
+        a, b = b, a
+    while b != 0:
+        temp = a % b;
+        a = b;
+        b = temp;
+    return a;
+c = gcd(6,3);
+print(c)
+print(int(a*b/c))

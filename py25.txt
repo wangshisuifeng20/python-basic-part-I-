@@ -1,0 +1,8 @@
+27.编写一个Python程序以将列表中的所有元素连接成一个字符串并返回它。
+
+def iii(list):
+    result = ''
+    for element in list:
+        result += str(element);
+    return result;
+print(iii([5,6,4,55]))

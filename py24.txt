@@ -1,0 +1,19 @@
+26.编写一个Python程序，从给定的整数列表创建直方图。
+
+import matplotlib.pyplot as plt
+def integar_list(lsit):
+    plt.xlabel("X");
+    plt.title("data");
+    plt.hist(lsit)
+print(integar_list([2,3,6,5,4]))
+
+
+def instagram(list):
+    for n in list:
+        output = ''
+        time = n;
+        while(time > 0):
+            output += "*";
+            time = time - 1;
+        print(output);
+print(instagram([2,3,5,6]));

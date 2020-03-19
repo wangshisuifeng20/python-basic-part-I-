@@ -1,0 +1,7 @@
+24.编写一个Python程序来测试传递的字母是否是元音。
+
+def is_vowel(char):
+    all_vowels = 'aeiou'
+    return char in all_vowels
+print(is_vowel('c'))
+print(is_vowel('e'))

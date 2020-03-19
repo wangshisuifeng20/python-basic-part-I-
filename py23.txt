@@ -1,0 +1,17 @@
+25.编写一个Python程序来检查一组值中是否包含指定的值。
+测试数据：
+3-> [1、5、8、3]：True 
+-1-> [1、5、8、3]：False
+
+def is_include(n):
+    list = [1,5,8,3];
+    return n in list;
+print(is_include(-1))
+
+def is_group_member(group_data, n):
+    for value in group_data:
+        if n == value:
+            return True
+    return False
+print(is_group_member([1, 5, 8, 3], 3))
+print(is_group_member([5, 8, 3], -1))

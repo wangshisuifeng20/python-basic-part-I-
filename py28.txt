@@ -1,0 +1,6 @@
+30.编写一个Python程序，该程序将接受三角形的底边和高度并计算面积。
+
+def area(h,r):
+    area_ = h*r/2;
+    return area_;
+print(area(5,8))

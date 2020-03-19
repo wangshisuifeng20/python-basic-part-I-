@@ -1,0 +1,10 @@
+29.编写一个Python程序以打印出一套，其中包含color_list_1中所有不存在于color_list_2中的颜色。
+测试数据：
+color_list_1 = set（[[“ White”，“ Black”，“ Red”]）
+color_list_2 = set（[“ Red”，“ Green”]）
+预期输出：
+{'Black'，'White' } 
+
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+print(color_list_1.difference(color_list_2))

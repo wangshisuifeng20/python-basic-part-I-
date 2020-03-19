@@ -1,0 +1,11 @@
+31.编写一个Python程序来计算两个正整数的最大公约数（GCD）。
+
+def gcd(a,b):
+    if a < b:
+        a, b = b, a
+    while b != 0:
+        temp = a % b;
+        a = b;
+        b = temp;
+    return a;
+print(gcd(8251,6105));

@@ -1,0 +1,16 @@
+23.编写一个Python程序以获取给定字符串的前2个字符的n个（非负整数）副本。
+如果长度小于2 ，则返回整个字符串的n个副本。
+
+
+def come_on(str,n):
+    result = "";
+    if n >=2:
+        for i in range(n):
+            result = result + str[:2];
+        return result;
+    else:
+        for i in range(n):
+            result = result + str;
+        return result;
+print(come_on('arrrio',10));
+print(come_on('b',2));
